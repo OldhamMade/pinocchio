@@ -3,14 +3,14 @@ from setuptools import setup
 setup(
     name='pinocchio',
     version="0.2",
-    download_url = 'http://darcs.idyll.org/~t/projects/pinocchio-0.2.0.tar.gz',
+    download_url = 'https://github.com/unpluggd/pinocchio/tarball/0.2',
 
-    description = 'pinocchio plugins for the nose testing framework',
+    description = 'pinocchio plugins for the nose testing framework, hosted by unpluggd on github',
     author = 'C. Titus Brown and Michal Kwiatkowski',
     author_email = 'titus@idyll.org,constant.beta@gmail.com',
     license = 'MIT',
 
-    url = 'http://darcs.idyll.org/~t/projects/pinocchio/doc/',
+    url = 'https://github.com/unpluggd/pinocchio/',
 
     long_description = """\
 Extra plugins for the nose testing framework.  Provides tools for flexibly
