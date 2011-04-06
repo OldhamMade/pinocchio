@@ -92,7 +92,11 @@ import re
 import types
 import unittest
 from StringIO import StringIO
-from unittest import _WritelnDecorator
+
+try:
+    from unittest.runner import _WritelnDecorator
+except ImportError:
+    from unittest import _WritelnDecorator
 
 import nose
 from nose.plugins import Plugin
