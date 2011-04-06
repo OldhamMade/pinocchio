@@ -1,8 +1,9 @@
-=========
 Pinocchio
 =========
 
 This is a clone of the `Pinocchio project <http://darcs.idyll.org/~t/projects/pinocchio/doc>`_, placed here because currently ``zc.buildout`` fails when trying to use the original url/`pypi submission <http://pypi.python.org/pypi/pinocchio/0.2>`_.
+
+This version has also been fixed to work with Python 2.7.
 
 The following is a ``buildout.cfg`` example to help you use this version of ``pinocchio`` in your project::
 

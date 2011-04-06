@@ -18,6 +18,8 @@ assigning decorator tags to tests, choosing tests based on their
 runtime, doing moderately sophisticated code coverage analysis
 of your unit tests, and making your test descriptions look like
 specifications.
+
+This version has been fixed to work with Python 2.7
 """,
 
     packages = ['pinocchio'],
