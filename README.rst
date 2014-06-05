@@ -11,7 +11,7 @@ The following is a ``buildout.cfg`` example to help you use this version of ``pi
     ...
     versions = versions
     find-links =
-        https://github.com/unpluggd/pinocchio/tarball/0.2#egg=pinocchio-0.2
+        https://github.com/OldhamMade/pinocchio/tarball/0.2#egg=pinocchio-0.2
     eggs = 
         pinocchio
 
